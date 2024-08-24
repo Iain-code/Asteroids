@@ -8,6 +8,7 @@ class Player(CircleShape):
         self.radius = PLAYER_RADIUS
         self.position = pygame.Vector2(x, y)
         self.rotation = 0
+       
         
     def draw(self, screen):
         pygame.draw.polygon(screen, "white", self.triangle(), 2)
