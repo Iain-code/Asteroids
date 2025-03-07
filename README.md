@@ -1,2 +1,2 @@
 # Asteroids
-This IS the right one
+Asteroids game run with Pygame!
